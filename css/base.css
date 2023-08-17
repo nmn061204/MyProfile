@@ -1,0 +1,34 @@
+:root{
+    --white-color:#fff;
+}
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.modal__body{
+    margin: auto;
+    z-index: 1;
+}
+.back-groud{
+    width: 100%;
+    height: 100%;
+}
